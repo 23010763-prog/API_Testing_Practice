@@ -35,34 +35,20 @@
     ├── putbody.png                  # Cấu hình Body PUT request
     ├── putscr.png                   # Kết quả gửi PUT request & Test scripts
     └── xóa.png                      # Kết quả gửi DELETE request & Test scripts
+
 ## 4. Kịch bản kiểm thử chi tiết & Kết quả thực hiện
-4.1. Kịch bản 1: Lấy danh sách dữ liệu (GET Request)
-Tên kịch bản: Kiểm thử lấy danh sách bài viết
+### 4.1. Kịch bản 1: Lấy danh sách dữ liệu (GET Request)
+- **Phương thức HTTP:** GET
+- **URL:** [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)
 
-Phương thức HTTP: GET
-
-
-URL: https://jsonplaceholder.typicode.com/posts
-
-
-Test Script:
-
-JavaScript
+**Test Script:**
+```javascript
 pm.test("Status code is 200 OK", function () {
     pm.response.to.have.status(200);
 });
-
-pm.test("Response time is less than 500ms", function () {
-    pm.expect(pm.response.responseTime).to.be.below(500);
-});
-Kết quả thực tế: Trang phản hồi mã 200 OK, thời gian phản hồi 266 ms, trả về danh sách dữ liệu dạng JSON.
-
 Trạng thái: Thành công (PASS)
 
-
 Hình ảnh minh họa:
-[<img width="1920" height="950" alt="getapi" src="https://github.com/user-attachments/assets/bf9dd55e-3246-4831-8c6d-5b16ed9c27d4" />
-](https://github.com/23010763-prog/API_Testing_Practice/blob/main/getapi.png?raw=true)
 
 
 4.2. Kịch bản 2: Tạo mới dữ liệu (POST Request)
@@ -103,7 +89,9 @@ Trạng thái: Thành công (PASS)
 
 
 Hình ảnh minh họa:
-
+4.1 Get:
+<img width="1920" height="950" alt="getapi" src="https://github.com/user-attachments/assets/fcba0133-76a6-4b3c-843f-dcc4960ffc55" />
+4.2 Post
 Cấu hình Body:
 <img width="1910" height="971" alt="postbody" src="https://github.com/user-attachments/assets/eac2b5fa-d9a9-4af2-a199-249d4a8f4ee2" />
 
@@ -156,6 +144,9 @@ Kết quả kiểm thử:
 
 <img width="1912" height="743" alt="putscr" src="https://github.com/user-attachments/assets/42f78544-81f2-4cce-8fdb-050afcf913a3" />
 
+4.4 DELETE:
+<img width="1920" height="892" alt="xóa" src="https://github.com/user-attachments/assets/6727e682-0f56-4cfc-8769-7c54d57551a4" />
+
 
 4.4. Kịch bản 4: Xóa dữ liệu (DELETE Request)
 Tên kịch bản: Kiểm thử xóa bài viết
@@ -177,10 +168,6 @@ Kết quả thực tế: Thực hiện lệnh xóa thành công, API trả về 
 
 Trạng thái: Thành công (PASS)
 
-
-Hình ảnh minh họa:
-
-<img width="1920" height="892" alt="xóa" src="https://github.com/user-attachments/assets/b266fb09-c767-4a5e-aa53-fffcfd0235bc" />
 
 
 5. Tổng kết kết quả kiểm thử
