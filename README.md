@@ -61,6 +61,8 @@ Trạng thái: Thành công (PASS)
 
 
 Hình ảnh minh họa:
+<img width="1920" height="950" alt="getapi" src="https://github.com/user-attachments/assets/bf9dd55e-3246-4831-8c6d-5b16ed9c27d4" />
+
 
 
 4.2. Kịch bản 2: Tạo mới dữ liệu (POST Request)
@@ -103,11 +105,13 @@ Trạng thái: Thành công (PASS)
 Hình ảnh minh họa:
 
 Cấu hình Body:
-[cite: 5]
+<img width="1910" height="971" alt="postbody" src="https://github.com/user-attachments/assets/eac2b5fa-d9a9-4af2-a199-249d4a8f4ee2" />
+
 
 Kết quả kiểm thử:
 
-[cite: 6]
+<img width="952" height="610" alt="postscripts" src="https://github.com/user-attachments/assets/3cd87364-b8f0-4c82-8910-9e5903d2255e" />
+
 
 4.3. Kịch bản 3: Cập nhật dữ liệu (PUT Request)
 Tên kịch bản: Kiểm thử cập nhật bài viết
@@ -145,11 +149,13 @@ Trạng thái: Thành công (PASS)
 Hình ảnh minh họa:
 
 Cấu hình Body:
-[cite: 7]
+<img width="1920" height="901" alt="putbody" src="https://github.com/user-attachments/assets/05557a5a-9959-406f-92e6-244609576380" />
+
 
 Kết quả kiểm thử:
 
-[cite: 8]
+<img width="1912" height="743" alt="putscr" src="https://github.com/user-attachments/assets/42f78544-81f2-4cce-8fdb-050afcf913a3" />
+
 
 4.4. Kịch bản 4: Xóa dữ liệu (DELETE Request)
 Tên kịch bản: Kiểm thử xóa bài viết
@@ -174,7 +180,8 @@ Trạng thái: Thành công (PASS)
 
 Hình ảnh minh họa:
 
-[cite: 9]
+<img width="1920" height="892" alt="xóa" src="https://github.com/user-attachments/assets/b266fb09-c767-4a5e-aa53-fffcfd0235bc" />
+
 
 5. Tổng kết kết quả kiểm thử
 Tổng số kịch bản đã kiểm thử: 4 kịch bản (GET, POST, PUT, DELETE).
