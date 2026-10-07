@@ -2,17 +2,17 @@
 # Báo Cáo Thực Hành Kiểm Thử API Bằng Postman
 
 ## Thông tin sinh viên
-- **Họ và tên:** Nguyễn Ngọc Trọng[cite: 1]
-- **Mã sinh viên:** 23010763[cite: 1]
+- **Họ và tên:** Nguyễn Ngọc Trọng
+- **Mã sinh viên:** 23010763
 - **Tên dự án:** API_Testing_Practice
 - **Môn học:** Đánh giá và kiểm định chất lượng phần mềm
 
 ---
 
 ## 1. Mục tiêu bài thực hành
-- Sử dụng công cụ Postman để thực hiện gửi các phương thức HTTP Request (GET, POST, PUT, DELETE) tới API thực tế[cite: 1, 4, 5, 8, 9].
+- Sử dụng công cụ Postman để thực hiện gửi các phương thức HTTP Request (GET, POST, PUT, DELETE) tới API thực tế
 - Viết các kịch bản kiểm thử tự động (Test Scripts) bằng JavaScript để kiểm tra Status Code và nội dung phản hồi.
-- Lưu trữ kịch bản kiểm thử và cập nhật báo cáo chi tiết lên repository GitHub[cite: 1].
+- Lưu trữ kịch bản kiểm thử và cập nhật báo cáo chi tiết lên repository GitHub
 
 ---
 
@@ -61,8 +61,8 @@ Trạng thái: Thành công (PASS)
 
 
 Hình ảnh minh họa:
-<img width="1920" height="950" alt="getapi" src="https://github.com/user-attachments/assets/bf9dd55e-3246-4831-8c6d-5b16ed9c27d4" />
-
+[<img width="1920" height="950" alt="getapi" src="https://github.com/user-attachments/assets/bf9dd55e-3246-4831-8c6d-5b16ed9c27d4" />
+](https://github.com/23010763-prog/API_Testing_Practice/blob/main/getapi.png?raw=true)
 
 
 4.2. Kịch bản 2: Tạo mới dữ liệu (POST Request)
